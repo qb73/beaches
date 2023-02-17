@@ -1,0 +1,293 @@
+/* CSS Document */
+
+/* Colors 
+Light Gray: #CFD1DD
+Dark Cyan: #3DA2AC
+Light Cyan: #8FC2C3
+Dark Green: #525B25
+Light Beige: #ECDFD7
+*/
+
+/* Fonts
+
+font-family: 'Alegreya', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&family=Anton&family=Lobster&display=swap');
+
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Heading style rules */
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	text-align: center;
+	color: #ECDFD7;
+	background-color: #3DA2AC;
+}
+
+blockquote {
+	color: #ECDFD7;
+	background-color: #3DA2AC;
+	font-size: 2em;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+/*  Main style rules */
+
+main {
+	background-color: #8FC2C3; 
+	min-height: 450px;
+}
+
+main p {
+	text-align: right;
+	color: #CFD1DD;
+	font-family: 'Alegreya', serif;
+	padding-left: 50%;
+	padding-right: 30px;
+	text-shadow: 6px 6px 6px #525B25;
+}
+
+h2 {
+	text-align: left;
+	color: #CFD1DD;
+	font-family: 'Anton', sans-serif;
+	padding: 25px 15px 5px 740px; /* T R B L */
+	font-size: 2em;
+	text-shadow: 6px 6px 6px #525B25;
+}
+
+.image1 {
+	background-image:url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+.image2 {
+	background-image:url("../images/trunkBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+.image3 {
+	background-image:url("../images/ShoalBayEast.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+.image4 {
+	background-image:url("../images/GraceBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+.image5 {
+	background-image:url("../images/newsletter_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+/* Top Navigation style rules */
+
+nav {
+	background-color: #525B25;
+}
+
+nav li {
+	display: inline;
+}
+
+.tNav {
+	padding: 20px 50px;
+}
+
+.index:hover {
+	background-image:url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	color: #525B25;
+}
+
+.trunk:hover {
+	background-image:url("../images/trunkBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	color: #525B25;
+}
+
+.shoal:hover {
+	background-image:url("../images/ShoalBayEast.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	color: #525B25;
+}
+
+.grace:hover {
+	background-image:url("../images/GraceBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	color: #525B25;
+}
+
+.newsletter:hover {
+	background-image:url("../images/newsletter_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	color: #525B25;
+}
+
+.tNav ul {
+	text-align: center;
+
+}
+
+.tNav a {
+	padding: 20px 60px;
+	color: #CFD1DD;
+	font-size: 2em;
+	font-family: 'Alegreya', serif;
+	text-decoration: none;
+}
+
+/* Bottom Navigation style rules */
+
+.indexB:hover {
+	color: #525B25;
+	background-color: #CFD1DD;
+}
+
+.trunkB:hover {
+	color: #525B25;
+	background-color: #CFD1DD;
+}
+
+.shoalB:hover {
+	color: #525B25;
+	background-color: #CFD1DD;
+}
+
+.graceB:hover {
+	color: #525B25;
+	background-color: #CFD1DD;
+}
+
+.newsletterB:hover {
+	color: #525B25;
+	background-color: #CFD1DD;
+}
+
+
+.bNav {
+	margin: 0;
+	background-color: #525B25;
+	color: #CFD1DD;
+	padding: 15px 30px;
+	clear: both;
+}
+
+.bNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #CFD1DD;
+	text-align: left;
+}
+
+.bNav a {
+	padding: 15px 30px;
+	color: #CFD1DD;
+	font-size: 1.3em;
+	font-family: 'Alegreya', serif;
+	text-decoration: none;
+}
+
+/* Newsletter style rules */
+
+form {
+	width: 20%;
+	margin: 10px 50px 0px 875px; /* T R B L */
+	border: 10px #525B25 solid;
+	color: #ECDFD7;
+	font-family: 'Alegreya', serif;
+	background-color: #3DA2AC;
+	padding: 5px 30px 30px 20px; /* T R B L */
+}
+
+input {
+	font-size: 0.75em;
+	font-family: 'Alegreya', serif; 
+	border-radius: 5px;
+	background-color: #ECDFD7;
+}
+
+input[type=text] {
+	width: 65%;
+}
+		
+input[type=email] {
+	width: 92%;
+}
+
+input[type=submit] {
+	font-family: 'Merriweather', serif;
+	background-color: red;
+	color: #CFD1DD; 
+	padding: 3%;
+	margin: 10%;
+}
+
+input[type=submit]:hover {
+	background-color: green;
+	color: #CFD1DD;	
+	padding: 3%;
+}
+input[type=reset] {
+	font-family: 'Merriweather', serif;
+	background-color: #ECDFD7;
+	color: black;
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: black;
+	padding: 3%;
+}
+
+/* Footer style rules */
+
+footer {
+	background-color: #8FC2C3;
+	min-height: 200px;
+}
+
+footer p {
+	font-family: 'Alegreya', serif;
+	text-align: left;
+	color: #ECDFD7;
+	padding: 10px 10px 0px 1040px;/* T R B L */
+}
+ 
