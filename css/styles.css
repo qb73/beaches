@@ -1,273 +1,168 @@
-/* CSS Document */
 
-/* Colors 
-Light Gray: #CFD1DD
-Dark Cyan: #3DA2AC
-Light Cyan: #8FC2C3
-Dark Green: #525B25
-Light Beige: #ECDFD7
+/* Colors
+Red - #CC1556
+Orange - #EF825A
+Beige - #F3E8E6
+Light Green - #998645
+Cyan - #63C2D4
+Light Blue - #50AACD
+Black - #000000
 */
 
-/* Fonts
-
-font-family: 'Alegreya', serif;
-font-family: 'Anton', sans-serif;
-font-family: 'Lobster', cursive;
-
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&family=Anton&family=Lobster&display=swap');
 
 /* CSS Reset */
 
 * {
-	margin: 0;
 	padding: 0;
-	border: 0;
+	margin: 0;
 }
 
-/* Heading style rules */
 
+/* Side Navigation */
+
+.sNav {
+	background-color: #000000; /* Black */
+	width: 10%;
+	padding-bottom: 40px;
+	float: right;
+	text-align: left;
+}
+
+.sNav ul {
+	padding-right: 20px;
+	margin-left: 40px;
+}
+
+.sNav li {
+	padding-top: 48px;
+}
+
+.sNav a {
+	font-size: 1em;
+}
+
+
+/* Nav */
+
+nav a {
+	text-decoration: none;
+	color: #63C2D4; /* Cyan */
+}
+
+nav a:hover {
+	color: #50AACD; /* Light Blue */
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+
+/* Header */
+
+header {
+	padding: 85px 58px;
+	background-color: #CC1556; /* Red */
+	width: 82%;
+}
 
 h1 {
-	font-family: 'Lobster', cursive;
-	font-size: 4em;
-	text-align: center;
-	color: #ECDFD7;
-	background-color: #3DA2AC;
+	font-size: 7em;
+}
+
+h1, blockquote {
+	text-align: left;
+	color: #F3E8E6; /* Beige */
 }
 
 blockquote {
-	color: #ECDFD7;
-	background-color: #3DA2AC;
-	font-size: 2em;
-	font-family: 'Lobster', cursive;
-	text-align: center;
+	font-size: 4em;
 }
 
-/*  Main style rules */
 
-main {
-	background-color: #8FC2C3; 
-	min-height: 450px;
+/* Main */
+
+.information {
+	background-color: #EF825A; /* Orange */
+	min-height: 700px;
 }
 
-main p {
-	text-align: right;
-	color: #CFD1DD;
-	font-family: 'Alegreya', serif;
-	padding-left: 50%;
-	padding-right: 30px;
-	text-shadow: 6px 6px 6px #525B25;
+.adjusted {
+	background-color: #EF825A;
+	min-height: 900px;
+}
+
+h2, h3, p {
+	color: #F3E8E6; /* Beige */
 }
 
 h2 {
-	text-align: left;
-	color: #CFD1DD;
-	font-family: 'Anton', sans-serif;
-	padding: 25px 15px 5px 740px; /* T R B L */
-	font-size: 2em;
-	text-shadow: 6px 6px 6px #525B25;
-}
-
-.image1 {
-	background-image:url("../images/home_Beach.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: left;
-}
-
-.image2 {
-	background-image:url("../images/trunkBayBeach.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: left;
-}
-
-.image3 {
-	background-image:url("../images/ShoalBayEast.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: left;
-}
-
-.image4 {
-	background-image:url("../images/GraceBayBeach.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: left;
-}
-
-.image5 {
-	background-image:url("../images/newsletter_Beach.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: left;
-}
-
-/* Top Navigation style rules */
-
-nav {
-	background-color: #525B25;
-}
-
-nav li {
-	display: inline;
-}
-
-.tNav {
-	padding: 20px 50px;
-}
-
-.index:hover {
-	background-image:url("../images/home_Beach.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
-	color: #525B25;
-}
-
-.trunk:hover {
-	background-image:url("../images/trunkBayBeach.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
-	color: #525B25;
-}
-
-.shoal:hover {
-	background-image:url("../images/ShoalBayEast.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
-	color: #525B25;
-}
-
-.grace:hover {
-	background-image:url("../images/GraceBayBeach.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
-	color: #525B25;
-}
-
-.newsletter:hover {
-	background-image:url("../images/newsletter_Beach.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center;
-	color: #525B25;
-}
-
-.tNav ul {
+	margin-top: 30px;
 	text-align: center;
-
-}
-
-.tNav a {
-	padding: 20px 60px;
-	color: #CFD1DD;
 	font-size: 2em;
-	font-family: 'Alegreya', serif;
-	text-decoration: none;
 }
 
-/* Bottom Navigation style rules */
-
-.indexB:hover {
-	color: #525B25;
-	background-color: #CFD1DD;
+h3 {
+	margin-top: 30px;
+	margin-left: 27.5%;
+	font-size: 1.75em;
+}
+	
+p {
+	margin-top: 20px;
+	margin-right: 400px;
+	margin-left: 400px;
+	font-size: 1.4em;
 }
 
-.trunkB:hover {
-	color: #525B25;
-	background-color: #CFD1DD;
-}
-
-.shoalB:hover {
-	color: #525B25;
-	background-color: #CFD1DD;
-}
-
-.graceB:hover {
-	color: #525B25;
-	background-color: #CFD1DD;
-}
-
-.newsletterB:hover {
-	color: #525B25;
-	background-color: #CFD1DD;
+img {
+	margin-left: 475px;
 }
 
 
-.bNav {
-	margin: 0;
-	background-color: #525B25;
-	color: #CFD1DD;
-	padding: 15px 30px;
-	clear: both;
-}
-
-.bNav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	color: #CFD1DD;
-	text-align: left;
-}
-
-.bNav a {
-	padding: 15px 30px;
-	color: #CFD1DD;
-	font-size: 1.3em;
-	font-family: 'Alegreya', serif;
-	text-decoration: none;
-}
-
-/* Newsletter style rules */
+/* Form */
 
 form {
-	width: 20%;
-	margin: 10px 50px 0px 875px; /* T R B L */
-	border: 10px #525B25 solid;
-	color: #ECDFD7;
-	font-family: 'Alegreya', serif;
-	background-color: #3DA2AC;
-	padding: 5px 30px 30px 20px; /* T R B L */
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 30%; 
+	border: 10px #998645 solid; /* Light Green */
+	color: #F3E8E6; /* Beige */
+	background-color: #63C2D4; /* Cyan */
+	padding: 50px; /* T R B L */
+	font-size: 1.25em;
 }
 
 input {
-	font-size: 0.75em;
-	font-family: 'Alegreya', serif; 
+	font-size: 1.1em; 
 	border-radius: 5px;
-	background-color: #ECDFD7;
+	background-color: #e4f2ea;
 }
 
 input[type=text] {
-	width: 65%;
+	width: 70%;
 }
 		
 input[type=email] {
-	width: 92%;
+	width: 98%;
 }
 
 input[type=submit] {
-	font-family: 'Merriweather', serif;
 	background-color: red;
-	color: #CFD1DD; 
+	color: #F3E8E6; /* Beige */
 	padding: 3%;
 	margin: 10%;
 }
 
 input[type=submit]:hover {
-	background-color: green;
-	color: #CFD1DD;	
+	background-color: #50AACD; /* Light Blue */
+	color: #F3E8E6;	/* Beige */
 	padding: 3%;
 }
 input[type=reset] {
 	font-family: 'Merriweather', serif;
-	background-color: #ECDFD7;
-	color: black;
+	background-color: #e4f2ea;
+	color: #11181e;
 	padding: 3%;
 }
 
@@ -277,17 +172,51 @@ input[type=reset]:hover {
 	padding: 3%;
 }
 
-/* Footer style rules */
+/* Footer */
+
+.bNav {
+	padding: 30px;
+	width: 95.85%;
+	margin-bottom: 75px;
+	background-color: #000000; /* Blakc */
+	min-height: 50px;
+}
+
+.bNav ul {
+	display: block;
+	text-align: center;
+}
+
+.bNav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	margin-top: 1%;
+}
+
+.bNav a {
+	color: #63C2D4; /* Cyan */
+	text-decoration: none;
+	font-size: 1.5em;
+}
 
 footer {
-	background-color: #8FC2C3;
-	min-height: 200px;
+	background-color: #CC1556;
+	max-height: 400px;/* Red */
+	padding-bottom: 100px;
 }
 
-footer p {
-	font-family: 'Alegreya', serif;
-	text-align: left;
-	color: #ECDFD7;
-	padding: 10px 10px 0px 1040px;/* T R B L */
+h4, h5 {
+	padding: 5px;
+	color: #F3E8E6;
+	text-align: center;
 }
- 
+
+h5 {
+	margin-right: 400px;
+	margin-left: 400px;
+}
+
+
+
+
